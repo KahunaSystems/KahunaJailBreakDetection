@@ -23,6 +23,10 @@ pod 'KahunaJailBreakDetection', '~> 0.1.0’
 ```
 > New development will happen exclusively on the master/Swift 3 branch.
 
+## Detect an iOS device is jailbroken or not
+```swift
+KahunaJailBreakDetection.isJailbroken()
+```
 ## Requirements
 
 ## Installation
