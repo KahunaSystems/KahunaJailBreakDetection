@@ -1,0 +1,6 @@
+framework module KahunaJailBreakDetection {
+  umbrella header "KahunaJailBreakDetection-umbrella.h"
+
+  export *
+  module * { export * }
+}

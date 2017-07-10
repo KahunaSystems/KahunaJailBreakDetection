@@ -1,0 +1,16 @@
+PODS:
+  - KahunaJailBreakDetection (0.1.0)
+
+DEPENDENCIES:
+  - KahunaJailBreakDetection (from `../`)
+
+EXTERNAL SOURCES:
+  KahunaJailBreakDetection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KahunaJailBreakDetection: 44000334ee66a6927dd9c00e3e590a8a75e5a6b6
+
+PODFILE CHECKSUM: 29c97e711bcab71217b7f54cecfbd8fe7f162e12
+
+COCOAPODS: 1.2.1

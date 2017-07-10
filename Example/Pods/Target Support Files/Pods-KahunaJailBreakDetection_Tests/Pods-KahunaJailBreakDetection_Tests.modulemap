@@ -1,0 +1,6 @@
+framework module Pods_KahunaJailBreakDetection_Tests {
+  umbrella header "Pods-KahunaJailBreakDetection_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
