@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-KahunaJailBreakDetection library to detect an iOS device is jailbroken or not.
+KahunaJailBreakDetection library to detect an iOS device is jailbroken or not based on that apply operation in an app.
                        DESC
 
   s.homepage         = 'https://github.com/siddharthchopra/KahunaJailBreakDetection'
