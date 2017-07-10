@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/KahunaJailBreakDetection.svg?style=flat)](http://cocoapods.org/pods/KahunaJailBreakDetection)
 [![Platform](https://img.shields.io/cocoapods/p/KahunaJailBreakDetection.svg?style=flat)](http://cocoapods.org/pods/KahunaJailBreakDetection)
 
+![LogCamp](http://www.kahuna-mobihub.com/templates/ja_puresite/images/logo-trans.png)
+
 KahunaJailBreakDetection is written in Objective C
 
 ## Example
