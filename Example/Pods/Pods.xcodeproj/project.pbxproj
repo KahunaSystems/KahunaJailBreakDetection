@@ -14,8 +14,9 @@
 		681BB7E187D42BFC7F553A69C0BBA2EC /* Pods-KahunaJailBreakDetection_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA574E0037F8F417CAC2A2ED1559355 /* Pods-KahunaJailBreakDetection_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE2FB384FFF898B8D10FDFED4B37105 /* Pods-KahunaJailBreakDetection_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B333275F65060CB411DB0FC5BF4A5D3 /* Pods-KahunaJailBreakDetection_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE7D5209C3C4A5F3272B5F66CCBFC084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */; };
 		D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C84611541E521C1F9FA5C6567B8E3 /* KahunaJailBreakDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08BACB5AC390F42687FC47BF4A76DC3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC22747BA2C623EC2C9469BFA094316 /* ReplaceMe.swift */; };
 		F60E28D8B1D5D8A1B857506EBAC6286F /* Pods-KahunaJailBreakDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -35,18 +36,17 @@
 		2870284FC64F59E17A99F0ED63D7754E /* Pods-KahunaJailBreakDetection_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Example-resources.sh"; sourceTree = "<group>"; };
 		2CD47AB79700CFCFB598AC24DEDB3427 /* KahunaJailBreakDetection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KahunaJailBreakDetection-prefix.pch"; sourceTree = "<group>"; };
 		34E31F630698C1B732EB56D4ADC73D68 /* Pods-KahunaJailBreakDetection_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Tests-resources.sh"; sourceTree = "<group>"; };
-		5E6D7A5DFDE0EBC4F1BD9D03C71BC992 /* KahunaJailBreakDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KahunaJailBreakDetection.framework; path = KahunaJailBreakDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6D7A5DFDE0EBC4F1BD9D03C71BC992 /* KahunaJailBreakDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KahunaJailBreakDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		621C4D07083D82FDE41E485C370B0C8A /* Pods-KahunaJailBreakDetection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KahunaJailBreakDetection_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		62205648CA1651CF7DB4B52ABB1B8E50 /* Pods-KahunaJailBreakDetection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KahunaJailBreakDetection_Tests.modulemap"; sourceTree = "<group>"; };
+		62205648CA1651CF7DB4B52ABB1B8E50 /* Pods-KahunaJailBreakDetection_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KahunaJailBreakDetection_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66E0DCF098EA7087F666C29D3438C759 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BC22747BA2C623EC2C9469BFA094316 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		7FEC7FA3C6D192860B9C8CEC774EB053 /* Pods_KahunaJailBreakDetection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KahunaJailBreakDetection_Example.framework; path = "Pods-KahunaJailBreakDetection_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8186CD36892B045FBD99821A7460E000 /* KahunaJailBreakDetection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KahunaJailBreakDetection.modulemap; sourceTree = "<group>"; };
-		8A1C7AB074E8554710044773BFCC20CB /* Pods_KahunaJailBreakDetection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KahunaJailBreakDetection_Tests.framework; path = "Pods-KahunaJailBreakDetection_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEC7FA3C6D192860B9C8CEC774EB053 /* Pods_KahunaJailBreakDetection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahunaJailBreakDetection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8186CD36892B045FBD99821A7460E000 /* KahunaJailBreakDetection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KahunaJailBreakDetection.modulemap; sourceTree = "<group>"; };
+		8A1C7AB074E8554710044773BFCC20CB /* Pods_KahunaJailBreakDetection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahunaJailBreakDetection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA574E0037F8F417CAC2A2ED1559355 /* Pods-KahunaJailBreakDetection_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KahunaJailBreakDetection_Example-umbrella.h"; sourceTree = "<group>"; };
 		90547C32613A13D38A25E771CA13BCCF /* Pods-KahunaJailBreakDetection_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KahunaJailBreakDetection_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A20ED94704E92520748D0C6F048442DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90574C22792218AE497C78D48B4F008 /* KahunaJailBreakDetection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KahunaJailBreakDetection.xcconfig; sourceTree = "<group>"; };
 		B55AB6A8846E4ED1DA6072F2FA6E636B /* Pods-KahunaJailBreakDetection_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KahunaJailBreakDetection_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -54,8 +54,10 @@
 		BD3296480E21A9B698B7784FCF9894DA /* Pods-KahunaJailBreakDetection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KahunaJailBreakDetection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDED7D3313B83CACA77433B7A0F195EC /* KahunaJailBreakDetection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KahunaJailBreakDetection-dummy.m"; sourceTree = "<group>"; };
 		C20F391BB9E84330DBE0EC3CCF3A5AFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C33CC3F42EBE7B5F785B76669CEA363D /* Pods-KahunaJailBreakDetection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KahunaJailBreakDetection_Example.modulemap"; sourceTree = "<group>"; };
+		C33CC3F42EBE7B5F785B76669CEA363D /* Pods-KahunaJailBreakDetection_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KahunaJailBreakDetection_Example.modulemap"; sourceTree = "<group>"; };
 		C523DD09E494B9DAF6E110E37F2583C9 /* Pods-KahunaJailBreakDetection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KahunaJailBreakDetection.h; sourceTree = "<group>"; };
+		CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KahunaJailBreakDetection.m; sourceTree = "<group>"; };
 		CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KahunaJailBreakDetection_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0D3794599455380F39ED7C646BCC85A /* Pods-KahunaJailBreakDetection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KahunaJailBreakDetection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D35E90E9EF7B8BDAF5BA56ED94B9918A /* Pods-KahunaJailBreakDetection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -97,16 +99,15 @@
 			children = (
 				0353FFD0F1559910282C2B2B3CD1A9F9 /* Classes */,
 			);
-			name = KahunaJailBreakDetection;
 			path = KahunaJailBreakDetection;
 			sourceTree = "<group>";
 		};
 		0353FFD0F1559910282C2B2B3CD1A9F9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7BC22747BA2C623EC2C9469BFA094316 /* ReplaceMe.swift */,
+				CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */,
+				CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -248,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */,
+				CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19EEBF3F380CD5652D3EFF3D3F4FB1BF /* KahunaJailBreakDetection-dummy.m in Sources */,
-				E08BACB5AC390F42687FC47BF4A76DC3 /* ReplaceMe.swift in Sources */,
+				CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

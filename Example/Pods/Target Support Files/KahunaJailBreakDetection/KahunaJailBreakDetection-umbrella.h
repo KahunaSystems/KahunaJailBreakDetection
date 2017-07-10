@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "KahunaJailBreakDetection.h"
 
 FOUNDATION_EXPORT double KahunaJailBreakDetectionVersionNumber;
 FOUNDATION_EXPORT const unsigned char KahunaJailBreakDetectionVersionString[];
