@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KahunaJailBreakDetection_Example' do
+  pod 'KahunaJailBreakDetection', :path => '../'
+
+  target 'KahunaJailBreakDetection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
