@@ -7,9 +7,34 @@
 //
 
 #import "KahunaJailBreakDetection.h"
+#import "KahunaJailBreakViewController.h"
+
+@interface KahunaJailBreakDetection ()
+
+@property(strong,nonatomic) UIViewController *jailBreakViewController;
+
+@end
 
 @implementation KahunaJailBreakDetection
-    
+
++(id)sharedInstance {
+    static KahunaJailBreakDetection *__sharedInstance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        __sharedInstance = [[KahunaJailBreakDetection alloc]init];
+    });
+    return __sharedInstance;
+}
+
+-(void)setYourViewController:(UIViewController *)viewController{
+    self.jailBreakViewController = viewController;
+}
+
+- (UIViewController *)getYourViewController{
+    return self.jailBreakViewController;
+}
+
+
 + (BOOL)isJailbroken
 {
 #if !(TARGET_IPHONE_SIMULATOR)
@@ -70,15 +95,24 @@
     } else {
         [fileManager removeItemAtPath:@"/private/jailbreak.txt" error:nil];
     }
-    
     // Check if the app can open a Cydia's URL scheme
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]) {
         return YES;
     }
-
 #endif
-
     return NO;
+}
+
+-(void)checkJailDeviceinDevice{
+    if ([KahunaJailBreakDetection isJailbroken]) {
+        KahunaJailBreakViewController *viewController = [[KahunaJailBreakViewController alloc]initWithNibName:@"KahunaJailBreakViewController" bundle:nil];
+        if([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
+            viewController = [[KahunaJailBreakViewController alloc]initWithNibName:@"KahunaJailBreakViewController_iPad" bundle:nil];
+        }
+        if(viewController!=nil){
+            [self.jailBreakViewController presentViewController:viewController animated:true completion:nil];
+        }
+    }
 }
 
 @end
