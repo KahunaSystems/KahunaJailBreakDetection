@@ -16,9 +16,7 @@
 		AE7D5209C3C4A5F3272B5F66CCBFC084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */; };
-		CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB48E941F5EB42200E3FBB3 /* KahunaJailBreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */; };
-		CCDF5AE31F6282120098EB22 /* KahunaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */; };
+		CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C84611541E521C1F9FA5C6567B8E3 /* KahunaJailBreakDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60E28D8B1D5D8A1B857506EBAC6286F /* Pods-KahunaJailBreakDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -258,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */,
-				CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */,
 				CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */,
+				CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +350,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDF5AE31F6282120098EB22 /* KahunaResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				19EEBF3F380CD5652D3EFF3D3F4FB1BF /* KahunaJailBreakDetection-dummy.m in Sources */,
-				CCB48E941F5EB42200E3FBB3 /* KahunaJailBreakViewController.m in Sources */,
 				CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
