@@ -18,12 +18,7 @@
 		CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */; };
 		CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCB48E941F5EB42200E3FBB3 /* KahunaJailBreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */; };
-		CCB48E9B1F5FC83D00E3FBB3 /* 500.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB48E8F1F5EB3EF00E3FBB3 /* 500.png */; };
-		CCB48E9C1F5FC83D00E3FBB3 /* KahunaJailBreakViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB48E921F5EB42200E3FBB3 /* KahunaJailBreakViewController.xib */; };
-		CCB48E9D1F5FC83D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB48E951F5EB85D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib */; };
-		CCB48E9E1F5FCF7F00E3FBB3 /* 500.png in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E8F1F5EB3EF00E3FBB3 /* 500.png */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB48E9F1F5FCF7F00E3FBB3 /* KahunaJailBreakViewController.xib in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E921F5EB42200E3FBB3 /* KahunaJailBreakViewController.xib */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB48EA01F5FCF7F00E3FBB3 /* KahunaJailBreakViewController_iPad.xib in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E951F5EB85D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCDF5AE31F6282120098EB22 /* KahunaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */; };
 		D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C84611541E521C1F9FA5C6567B8E3 /* KahunaJailBreakDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60E28D8B1D5D8A1B857506EBAC6286F /* Pods-KahunaJailBreakDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -66,11 +61,9 @@
 		C523DD09E494B9DAF6E110E37F2583C9 /* Pods-KahunaJailBreakDetection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KahunaJailBreakDetection.h; sourceTree = "<group>"; };
 		CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KahunaJailBreakDetection.m; sourceTree = "<group>"; };
-		CCB48E8F1F5EB3EF00E3FBB3 /* 500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500.png; sourceTree = "<group>"; };
 		CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KahunaJailBreakViewController.h; sourceTree = "<group>"; };
 		CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KahunaJailBreakViewController.m; sourceTree = "<group>"; };
-		CCB48E921F5EB42200E3FBB3 /* KahunaJailBreakViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KahunaJailBreakViewController.xib; sourceTree = "<group>"; };
-		CCB48E951F5EB85D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KahunaJailBreakViewController_iPad.xib; sourceTree = "<group>"; };
+		CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KahunaResources.bundle; sourceTree = "<group>"; };
 		CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KahunaJailBreakDetection_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0D3794599455380F39ED7C646BCC85A /* Pods-KahunaJailBreakDetection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KahunaJailBreakDetection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D35E90E9EF7B8BDAF5BA56ED94B9918A /* Pods-KahunaJailBreakDetection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -118,13 +111,11 @@
 		0353FFD0F1559910282C2B2B3CD1A9F9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */,
 				CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */,
 				CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */,
-				CCB48E8F1F5EB3EF00E3FBB3 /* 500.png */,
 				CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */,
 				CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */,
-				CCB48E921F5EB42200E3FBB3 /* KahunaJailBreakViewController.xib */,
-				CCB48E951F5EB85D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -267,10 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */,
-				CCB48E9E1F5FCF7F00E3FBB3 /* 500.png in Headers */,
 				CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */,
-				CCB48E9F1F5FCF7F00E3FBB3 /* KahunaJailBreakViewController.xib in Headers */,
-				CCB48EA01F5FCF7F00E3FBB3 /* KahunaJailBreakViewController_iPad.xib in Headers */,
 				CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,9 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB48E9B1F5FC83D00E3FBB3 /* 500.png in Resources */,
-				CCB48E9C1F5FC83D00E3FBB3 /* KahunaJailBreakViewController.xib in Resources */,
-				CCB48E9D1F5FC83D00E3FBB3 /* KahunaJailBreakViewController_iPad.xib in Resources */,
+				CCDF5AE31F6282120098EB22 /* KahunaResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
