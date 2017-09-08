@@ -36,7 +36,7 @@ KahunaJailBreakDetection library to detect an iOS device is jailbroken or not ba
   #   'KahunaJailBreakDetection' => ['KahunaJailBreakDetection/Assets/*.png']
   # }
   s.resource_bundles    = {
-    'KahunaJailBreakDetection' => ['KahunaJailBreakDetection/Resources/*/*']
+    'KahunaJailBreakDetection' => ['KahunaJailBreakDetection/*/*']
   }
 #s.resources = 'KahunaJailBreakDetection/KahunaResources.bundle'
   # s.public_header_files = 'Pod/Classes/**/*.h'
