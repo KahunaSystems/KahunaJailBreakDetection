@@ -7,7 +7,7 @@
 //
 
 #import "KahunaJailBreakDetection.h"
-#import "KahunaJailBreakViewController.h"
+//#import "KahunaJailBreakViewController.h"
 
 @interface KahunaJailBreakDetection ()
 
@@ -29,11 +29,6 @@
 -(void)setYourViewController:(UIViewController *)viewController{
     self.jailBreakViewController = viewController;
 }
-
-- (UIViewController *)getYourViewController{
-    return self.jailBreakViewController;
-}
-
 
 + (BOOL)isJailbroken
 {
@@ -105,12 +100,30 @@
 
 -(void)checkJailDeviceinDevice{
     if ([KahunaJailBreakDetection isJailbroken]) {
-        KahunaJailBreakViewController *viewController = [[KahunaJailBreakViewController alloc]initWithNibName:@"KahunaJailBreakViewController" bundle:nil];
-        if([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
-            viewController = [[KahunaJailBreakViewController alloc]initWithNibName:@"KahunaJailBreakViewController_iPad" bundle:nil];
+        NSString *appName = [[[NSBundle mainBundle]infoDictionary]objectForKey:@"CFBundleName"];
+        NSString *appDesc = @"";
+        if(appName.length > 0){
+            appDesc = [NSString stringWithFormat:@"It appears that your device is compromised or rooted and %@ can not continue. Please contact our support team for further guidance.",appName];
         }
-        if(viewController!=nil){
-            [self.jailBreakViewController presentViewController:viewController animated:true completion:nil];
+        NSDictionary *attrDict = @{
+                                   NSFontAttributeName : [UIFont boldSystemFontOfSize:21.0],
+                                   NSForegroundColorAttributeName : [UIColor redColor]
+                                   };
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"Security Error" attributes:attrDict];
+        NSDictionary *attrDict1 = @{
+                                    NSForegroundColorAttributeName : [UIColor blackColor]
+                                    };
+        NSMutableAttributedString *attributedString1 = [[NSMutableAttributedString alloc] initWithString:appDesc attributes:attrDict1];
+        
+        NSRange boldRange = [appDesc rangeOfString:appName];
+        [attributedString1 addAttribute: NSFontAttributeName value:[UIFont boldSystemFontOfSize:17] range:boldRange];
+        UIAlertController *alertController=[UIAlertController alertControllerWithTitle:@""
+                                                                               message:@""
+                                                                        preferredStyle:UIAlertControllerStyleAlert];
+        [alertController setValue:attributedString forKey:@"attributedTitle"];
+        [alertController setValue:attributedString1 forKey:@"attributedMessage"];
+        if(self.jailBreakViewController!=nil){
+            [self.jailBreakViewController presentViewController:alertController animated:true completion:nil];
         }
     }
 }
