@@ -21,7 +21,7 @@ KahunaJailBreakDetection is available through [CocoaPods](http://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KahunaJailBreakDetection', '~> 0.1.7'
+pod 'KahunaJailBreakDetection', '~> 0.1.8'
 ```
 > New development will happen exclusively on the master/Swift 3 branch.
 
