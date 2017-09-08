@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KahunaJailBreakDetection'
-  s.version          = '0.1.0'
+  s.version          = '0.1.7'
   s.summary          = 'KahunaJailBreakDetection library to detect an iOS device is jailbroken or not.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,6 @@ KahunaJailBreakDetection library to detect an iOS device is jailbroken or not ba
   # s.resource_bundles = {
   #   'KahunaJailBreakDetection' => ['KahunaJailBreakDetection/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

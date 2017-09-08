@@ -16,6 +16,7 @@
 		AE7D5209C3C4A5F3272B5F66CCBFC084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC6D1C571F13775800D17FEC /* KahunaJailBreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */; };
+		CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30C84611541E521C1F9FA5C6567B8E3 /* KahunaJailBreakDetection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60E28D8B1D5D8A1B857506EBAC6286F /* Pods-KahunaJailBreakDetection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,9 @@
 		C523DD09E494B9DAF6E110E37F2583C9 /* Pods-KahunaJailBreakDetection_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KahunaJailBreakDetection.h; sourceTree = "<group>"; };
 		CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KahunaJailBreakDetection.m; sourceTree = "<group>"; };
+		CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KahunaJailBreakViewController.h; sourceTree = "<group>"; };
+		CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KahunaJailBreakViewController.m; sourceTree = "<group>"; };
+		CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KahunaResources.bundle; sourceTree = "<group>"; };
 		CF89F348FA5BCD17CCAA79595D228B59 /* Pods-KahunaJailBreakDetection_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KahunaJailBreakDetection_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0D3794599455380F39ED7C646BCC85A /* Pods-KahunaJailBreakDetection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KahunaJailBreakDetection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D35E90E9EF7B8BDAF5BA56ED94B9918A /* Pods-KahunaJailBreakDetection_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KahunaJailBreakDetection_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -105,8 +109,11 @@
 		0353FFD0F1559910282C2B2B3CD1A9F9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CCDF5AE21F6282120098EB22 /* KahunaResources.bundle */,
 				CC6D1C541F13775800D17FEC /* KahunaJailBreakDetection.h */,
 				CC6D1C551F13775800D17FEC /* KahunaJailBreakDetection.m */,
+				CCB48E901F5EB42200E3FBB3 /* KahunaJailBreakViewController.h */,
+				CCB48E911F5EB42200E3FBB3 /* KahunaJailBreakViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -250,6 +257,7 @@
 			files = (
 				D192E58DFBBAB1116172A4670C60CAA0 /* KahunaJailBreakDetection-umbrella.h in Headers */,
 				CC6D1C561F13775800D17FEC /* KahunaJailBreakDetection.h in Headers */,
+				CCB48E931F5EB42200E3FBB3 /* KahunaJailBreakViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +271,7 @@
 				93104CAA6EFD7B1DEB1647A67C935866 /* Sources */,
 				BB25F1C561ED71F65B111C0F4DA73571 /* Frameworks */,
 				A5E3B84A0FF804D2FDCAAD539656AC43 /* Headers */,
+				CCB48E9A1F5FC83600E3FBB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +344,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB48E9A1F5FC83600E3FBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93104CAA6EFD7B1DEB1647A67C935866 /* Sources */ = {

@@ -11,5 +11,8 @@
 @interface KahunaJailBreakDetection : NSObject
 
 + (BOOL)isJailbroken;
++ (id)sharedInstance;
+- (void)setYourViewController:(UIViewController *)viewController;
+- (void)checkJailDeviceinDevice;
 
 @end
