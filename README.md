@@ -41,6 +41,7 @@ func checkDeviceRooted() {
 }
   ```  
 
+## For Swift 2.3
 > _Note:_ KahunaJailBreakDetection requires Swift 3 (and Xcode 8) or greater. If you absolutely
 > need compatibility with Swift 2.3 you can use the swift2.3 branch by adding following line to your Podfile:
 ```ruby
