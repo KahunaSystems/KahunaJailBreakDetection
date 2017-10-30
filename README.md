@@ -13,8 +13,6 @@ KahunaJailBreakDetection is written in Objective C
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 KahunaJailBreakDetection is available through [CocoaPods](http://cocoapods.org). To install
@@ -30,7 +28,9 @@ pod 'KahunaJailBreakDetection', '~> 0.1.8'
 KahunaJailBreakDetection.isJailbroken()
 ```
 
-## Write checkDeviceRooted method in appdelegate class and call in applicationWillEnterForeground method.
+## Required methods to be written in appdelegate class.
+> _Note:_
+Call checkDeviceRooted in applicationWillEnterForeground method
 ```swift
 func checkDeviceRooted() {
     let jailbreak = KahunaJailBreakDetection.sharedInstance() as! KahunaJailBreakDetection
@@ -40,9 +40,6 @@ func checkDeviceRooted() {
     }
 }
   ```  
-## Requirements
-
-## Installation
 
 > _Note:_ KahunaJailBreakDetection requires Swift 3 (and Xcode 8) or greater. If you absolutely
 > need compatibility with Swift 2.3 you can use the swift2.3 branch by adding following line to your Podfile:
