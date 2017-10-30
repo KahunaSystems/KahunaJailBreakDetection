@@ -29,6 +29,17 @@ pod 'KahunaJailBreakDetection', '~> 0.1.8'
 ```swift
 KahunaJailBreakDetection.isJailbroken()
 ```
+
+## Write checkDeviceRooted method in appdelegate class and call in applicationWillEnterForeground method.
+```swift
+func checkDeviceRooted() {
+    let jailbreak = KahunaJailBreakDetection.sharedInstance() as! KahunaJailBreakDetection
+    if let rootViewController = self.window?.rootViewController {
+        jailbreak.setYourViewController(rootViewController)
+        jailbreak .checkJailDeviceinDevice()
+    }
+}
+  ```  
 ## Requirements
 
 ## Installation
